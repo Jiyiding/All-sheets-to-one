@@ -11,6 +11,8 @@ TargetFileName = userSheets.cell(row=3, column=2).value
 StartSheet = userSheets.cell(row=4, column=2).value
 EndSheet = userSheets.cell(row=5, column=2).value
 ProduceCode = userSheets.cell(row=6, column=2).value
+Sheetname = userSheets.cell(row=7, column=2).value
+TC_Priority = userSheets.cell(row=8, column=2).value
 
 excel_file = openpyxl.load_workbook(SourceFileName)
 # acquire sheets
